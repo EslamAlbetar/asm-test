@@ -1,0 +1,122 @@
+body {
+    background-color: #f8fafc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #374151;
+}
+
+/* صندوق رئيسي */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+}
+
+/* خلفية البلوكات */
+.bg-white {
+    background-color: #ffffff;
+}
+
+.shadow {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.sm\\:rounded-lg {
+    border-radius: 0.75rem;
+}
+
+/* ترويسات */
+h2 {
+    color: #1f2937;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+/* الفقرات */
+p {
+    color: #6b7280;
+}
+
+/* المدخلات */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    background-color: #f9fafb;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #6366f1;
+    background-color: #fff;
+}
+
+/* الأزرار */
+button,
+.x-primary-button,
+.x-secondary-button,
+.x-danger-button {
+    padding: 0.6rem 1.2rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.x-primary-button {
+    background-color: #6366f1;
+    color: white;
+}
+
+.x-primary-button:hover {
+    background-color: #4f46e5;
+}
+
+.x-secondary-button {
+    background-color: #e5e7eb;
+    color: #111827;
+}
+
+.x-secondary-button:hover {
+    background-color: #d1d5db;
+}
+
+.x-danger-button {
+    background-color: #ef4444;
+    color: white;
+}
+
+.x-danger-button:hover {
+    background-color: #dc2626;
+}
+
+/* الخطأ */
+.input-error,
+.x-input-error {
+    color: #dc2626;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
+
+/* تنسيق الحالة */
+.status-message {
+    color: #10b981;
+    font-size: 0.9rem;
+}
+
+/* المودال */
+.x-modal {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* المسافات بين العناصر */
+.space-y-6 > * + * {
+    margin-top: 1.5rem;
+}
